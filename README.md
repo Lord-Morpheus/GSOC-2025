@@ -194,7 +194,7 @@ The implementation of automated testing aimed to:
 ##### 1. ModelAutoTest
 
 **Purpose:**  
-The ModelAutoTest class is designed to verify the correctness and reliability of the data models that serve as the foundation for KDE Print Manager's printer representation and management. These models are critical as they bridge the gap between the low-level CUPS API and the high-level Qt-based user interface components. By testing these models thoroughly, we ensure that printer data is accurately represented, properly updated, and consistently available to all UI components that depend on them.
+The ModelAutoTest class is designed to verify the correctness and reliability of the data models that serve as the foundation for KDE Print Manager's printer representation and management. These models are critical as they bridge the gap between the low-level CUPS API and the high-level Qt-based user interface components.
 
 **Coverage:**
 - Printer model functionality
@@ -211,7 +211,7 @@ The ModelAutoTest class is designed to verify the correctness and reliability of
 ##### 2. CupsServerAutoTest
 
 **Purpose:**  
-The CupsServerAutoTest class focuses on validating the interaction between KDE Print Manager and the CUPS server daemon. This test suite is crucial for ensuring that the application can reliably communicate with CUPS to retrieve server settings, apply configuration changes, and maintain stable connections. Given that CUPS 3.x introduces significant API changes, these tests are essential for catching compatibility issues early and ensuring that server-level operations work correctly across different CUPS versions. The test suite verifies both read and write operations to the CUPS server, ensuring bidirectional communication integrity.
+The CupsServerAutoTest class focuses on validating the interaction between KDE Print Manager and the CUPS server daemon. This test suite is crucial for ensuring that the application can reliably communicate with CUPS to retrieve server settings, apply configuration changes, and maintain stable connections.
 
 **Coverage:**
 - Server settings retrieval
@@ -232,10 +232,10 @@ The CupsServerAutoTest class focuses on validating the interaction between KDE P
 ##### 3. CallKcmTests
 
 **Purpose:**  
-The CallKcmTests class validates the KDE Control Module (KCM) component, which provides the primary user interface for printer configuration within the KDE System Settings. This test suite ensures that the KCM loads correctly, displays printer information accurately, and responds appropriately to user interactions. While this test may involve some user interaction elements, it plays a vital role in verifying the integration between the backend CUPS functionality and the frontend Qt/QML-based configuration interfaces. The tests confirm that users can effectively manage their printers through the familiar KDE System Settings interface without encountering crashes, data inconsistencies, or UI freezes.
+The CallKcmTests class validates the KDE Control Module (KCM) component, which provides the primary user interface for printer configuration within the KDE System Settings. This test suite ensures that the KCM loads correctly, displays printer information accurately, and responds appropriately to user interactions.
 
 **Type:** User-interaction test  
-**Status:** Complements automated tests (may not be fully automated)
+**Status:** Complements automated tests (not fully automated yet)
 
 **Coverage:**
 - KCM module loading and initialization
@@ -247,12 +247,12 @@ The CallKcmTests class validates the KDE Control Module (KCM) component, which p
 ##### 4. PrinterManagerTest
 
 **Purpose:**  
-The PrinterManagerTest class is designed to provide comprehensive end-to-end testing of the entire KDE Print Manager system, covering the complete printer lifecycle from discovery and addition through configuration, usage, and removal. This test suite aims to validate the integration of all components working together as a cohesive system. It tests real-world scenarios that users encounter, such as adding a new network printer, modifying its settings, submitting print jobs, and troubleshooting issues. Once fully implemented, this test will serve as the primary validation mechanism for ensuring that the Print Manager functions correctly as a complete application rather than just as isolated components.
+The PrinterManagerTest class is designed to provide comprehensive end-to-end testing of the entire KDE Print Manager system, covering the complete printer lifecycle from discovery and addition through configuration, usage, and removal. This test suite aims to validate the integration of all components working together as a cohesive system.
 
-**Status:** Currently disabled/incomplete  
+**Status:** Currently disabled 
 **Requirement:** Active CUPS server connection
 
-**Planned Coverage:**
+**Coverage:**
 - Complete printer lifecycle operations
 - Printer discovery and enumeration
 - Queue creation and configuration
