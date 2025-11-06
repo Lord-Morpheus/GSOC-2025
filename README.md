@@ -2,16 +2,11 @@
 ![GSOC 2025](./media/gsoc.png)
 
 ## Project Title
-**KDE Print Manager: CUPS 3.x Compatibility and Testing Infrastructure**
-![Linux Foundation](./media/linux.png)
-
-## Author
-**Tarun Srivastava**  
-GSoC 2025 Contributor - Open Printing @ Linux Foundation
+### **KDE Print Manager: CUPS 3.x Compatibility and Testing Infrastructure**
 
 ## Mentors
-[Till Kamppeter](https://github.com/tillkamppeter) - Open Printing Lead (Printing Guru)
-[Mike Noee](https://invent.kde.org/noee) - KDE developer (Print Manager specialist)
+- [Till Kamppeter](https://github.com/tillkamppeter) - Open Printing Lead (Printing Guru)
+- [Mike Noee](https://invent.kde.org/noee) - KDE developer (Print Manager specialist)
 
 ## Overview
 This project focused on modernizing the KDE Print Manager to support the newer CUPS 3.x while maintaining backward compatibility with CUPS 2.x. The work encompassed two major objectives:
