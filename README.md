@@ -2,7 +2,7 @@
 ![GSOC 2025](./media/gsoc.png)
 
 ## Project Title
-### **KDE Print Manager: CUPS 3.x Compatibility and Testing Infrastructure**
+### **KDE Print Manager vs. CUPS 3.x**
 
 ## Mentors
 - [Till Kamppeter](https://github.com/tillkamppeter) - Open Printing Lead (Printing Guru)
