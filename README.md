@@ -3,11 +3,15 @@
 
 ## Project Title
 **KDE Print Manager: CUPS 3.x Compatibility and Testing Infrastructure**
+![Linux Foundation](./media/linux.png)
 
 ## Author
 **Tarun Srivastava**  
 GSoC 2025 Contributor - Open Printing @ Linux Foundation
-![Linux Foundation](./media/linux.png)
+
+## Mentors
+[Till Kamppeter](https://github.com/tillkamppeter) - Open Printing Lead (Printing Guru)
+[Mike Noee](https://invent.kde.org/noee) - KDE developer (Print Manager specialist)
 
 ## Overview
 This project focused on modernizing the KDE Print Manager to support the newer CUPS 3.x while maintaining backward compatibility with CUPS 2.x. The work encompassed two major objectives:
@@ -18,7 +22,7 @@ This project focused on modernizing the KDE Print Manager to support the newer C
 ## Project Links
 
 ### Repository
-- [KDE Print Manager (Development Fork)](https://invent.kde.org/tarunsri/print-manager)
+ - [KDE Print Manager (Development Fork)](https://invent.kde.org/tarunsri/print-manager) — branches of interest: `test_branch` (autotests), `for-V3` (refactoring), `kcupsrequest` (API changes)
 
 ### CUPS 3.x Migration Merge Requests
 - [MR #227 - Initial CUPS 3.x Support](https://invent.kde.org/plasma/print-manager/-/merge_requests/227)
