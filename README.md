@@ -121,7 +121,9 @@ The following components required updates due to libcups3 changes:
 - Legacy function replacements implemented throughout codebase
 - Macro definitions updated for compatibility
 
-**Reference:** [MR #227 - Initial CUPS 3.x Support](https://invent.kde.org/plasma/print-manager/-/merge_requests/227)
+**Reference:** 
+- [MR #227 - Initial CUPS 3.x Support](https://invent.kde.org/plasma/print-manager/-/merge_requests/227)
+- [Migration Guide](https://openprinting.github.io/cups/libcups/cupspm.html#migrating-code-from-cups-2.x-and-earlier)
 
 #### Modern API Adoption
 
